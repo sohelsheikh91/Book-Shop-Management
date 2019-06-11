@@ -11,7 +11,8 @@ public class CustomerName{
 	}
 
 	public void setName(String name) {
-		//write your code here
+		//write your code her
+		this.name = name;
 	}
 	
 }

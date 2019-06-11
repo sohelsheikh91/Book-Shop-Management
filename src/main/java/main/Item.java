@@ -1,3 +1,4 @@
+
 package main;
 public class Item{
     public String itemName;
@@ -5,6 +6,8 @@ public class Item{
     public  void addItem(String itemName,int mrpItem){
         //write your code here
     	//-------------------
+    	this.itemName =itemName;
+    	this.mrp =mrpItem;
 
     }
 	public String getItemName() {
